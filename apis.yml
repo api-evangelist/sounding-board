@@ -1,8 +1,26 @@
 aid: sounding-board
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sounding-board.png
 name: Sounding Board
-description: Sounding Board is a company surfaced as a portfolio company of bloomberg-beta, canaan-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Sounding Board is a leadership development company offering tech-powered coaching and mentoring
+  solutions that help organizations develop dynamic leaders at every level. Its platform pairs software
+  products (Expand, Guide, and Transform) with a global network of ICF/EMCC/IAC/CCE-certified coaches to
+  deliver 1:1 coaching, group coaching, mentoring, and on-demand leadership development. Sounding Board
+  serves technology, professional services, government, education, healthcare, financial services, and
+  retail organizations, and was acquired by BTS in March 2025 to extend end-to-end executive-to-frontline
+  coaching. Surfaced as a portfolio company of Bloomberg Beta and Canaan Partners; no public developer or
+  API surface has been found to date.
 url: https://raw.githubusercontent.com/api-evangelist/sounding-board/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Leadership Development
+- Coaching
+- Mentoring
+- Talent Development
+- Human Resources
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.soundingboardinc.com/
+- type: Blog
+  url: https://www.soundingboardinc.com/blog/
+- type: TermsOfService
+  url: https://www.soundingboardinc.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.soundingboardinc.com/privacy-policy/
+- type: DomainSecurity
+  url: security/sounding-board-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
